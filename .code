@@ -1,0 +1,81 @@
+PC-1
+  no
+  enable
+config terminal
+interface fa0/0
+    ip address 192.168.10.1 255.255.255.0
+    no sh
+ex
+enable
+config terminal
+interface se0/0
+  ip adress 192.168.20.1 255.255.255.0
+  no sh
+ex
+
+PC-2
+  no 
+  enable
+config terminal
+interface fa0/0
+  ip address 192.168.30.1 255.255.255.255.0
+  no sh
+ex
+
+enable
+config terminal
+interface se0/1
+  ip address 192.168.30.2 255.255.255.0
+  no sh
+ex
+
+PC-3
+  no
+  enable
+config terminal
+interface fa0/2
+  ip add 192.168.40.1 255.255.255.0
+  no sh
+ex
+
+ena
+config terminal
+interface se0/0
+  ip address 192.168.40.2 255.255.255.0
+  no sh
+ex
+
+PC-3
+  no
+  enable
+config terminal
+interface fa0/4
+  ip add 192.168.50.1 255.255.255.0
+  no sh
+ex
+
+enable
+config terminal
+interface se0/5
+  ip add 192.168.50.2 255.255.255.0
+  no sh
+ex
+
+PC-4
+
+  no
+  enable
+config terminal
+interface fa0/5
+  ip add 192.168.60.1 255.255.255.0
+  no sh
+ex
+
+enable
+config terminal
+interface se0/6
+  ip add 192.168.60.2 255.255.255.0
+  no sh
+ex
+
+  
